@@ -14,7 +14,7 @@ By keeping these documents in a version-controlled Git repository, we provide fu
 - **Tamper-evident history** — Git commit hashes + timestamps cryptographically guarantee no retroactive changes without trace  
 - **High availability & embeddability** — documents are distributed via global CDN for reliable client-side usage
 
-## Repository Structure
+### Repository Structure
 
 ```text
 ├── PrivacyPolicy/
@@ -32,19 +32,17 @@ By keeping these documents in a version-controlled Git repository, we provide fu
 └── README.md
 ```
 
-## Verifying Document History
+### Verifying Document History
 You can inspect the complete change history of any file using standard GitHub features:
 
 - Click History on any file to see all commits
 - Use Blame to see who changed which line and when
 - Every meaningful change is tied to a commit hash, author, date, and commit message
 
-Accessing Documents via CDN (recommended for apps/websites)
-Using jsDelivr (fast, global, reliable):
+### Important Notes / Disclaimer
 
-# Latest production version (whatever is on main branch)
-https://cdn.jsdelivr.net/gh/username/repository@main/PrivacyPolicy/current_privacy_policy.md
-https://cdn.jsdelivr.net/gh/username/repository@main/TermsOfService/current_terms_of_service.md
+- Files located in /Archive/ folders are no longer in effect unless explicitly stated otherwise in a legal notice.
+- The current_*.md files in the root of each category represent the active, legally binding versions.
+- This repository is provided for transparency, reference, and integration purposes. It does not replace any legally required in-app or on-site presentation of the current terms.
 
-# Specific historical version (using Git tag)
-https://cdn.jsdelivr.net/gh/username/repository@v2.1.0/TermsOfService/current_terms_of_service.md
+We welcome reasoned feedback about wording clarity, but substantive legal changes follow our normal governance process.
