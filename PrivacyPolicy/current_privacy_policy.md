@@ -1,5 +1,5 @@
 # PRIVACY POLICY 
-**Last updated:** June 22, 2026
+**Last updated:** September 14, 2026
 
 This Privacy Notice for Horus Technologies LLC (doing business as Horus Edge) ("we," "us," or "our"), describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services").
 
