@@ -1,0 +1,20 @@
+name: check-manifest
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Valida versions.json
+        run: python .github/scripts/check_manifest.py "${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || '' }}"
