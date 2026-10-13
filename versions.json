@@ -1,0 +1,26 @@
+{
+  "terms_of_service": {
+    "version": 1,
+    "file": "TermsOfService/current_terms_of_service.md",
+    "effective_date": "2026-06-22",
+    "v1_legacy_hash": "f7bc861"
+  },
+  "privacy_policy": {
+    "version": 1,
+    "file": "PrivacyPolicy/current_privacy_policy.md",
+    "effective_date": "2026-09-14",
+    "v1_legacy_hash": "a526ab9"
+  },
+  "cookie_policy": {
+    "version": 1,
+    "file": "CookiePolicy/current_cookie_policy.md",
+    "effective_date": "2026-06-22",
+    "v1_legacy_hash": "f7bc861"
+  },
+  "disclaimer": {
+    "version": 1,
+    "file": "Disclaimer/current_disclaimer.md",
+    "effective_date": "2026-06-22",
+    "v1_legacy_hash": "95b0339"
+  }
+}
